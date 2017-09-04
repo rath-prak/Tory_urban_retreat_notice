@@ -24,6 +24,10 @@ h3, h4, h5 {
   font-weight: 700;
 }
 
+a:link {
+    color: #fff !important;
+}
+
 // Spacing at bottom of images
 // -------
 .full-width-image {
@@ -33,15 +37,22 @@ h3, h4, h5 {
 
 // FOOTER
 // -------
+.social-media-item {
+  img {
+    width: 32px !important;
+    height: 32px !important;
+  }
+}
 
-@media screen and (max-width: 596px) {
+@media screen and (max-width: 597px) {
 
   .social-media {
+    padding-right: 20px !important;
+  }
+
+  .social-media-item {
     padding-right: 0px !important;
     img {
-      width: 40px !important;
-      height: 40px !important;
-      padding-right: 10px !important;
       padding-bottom: 30px !important;
     }
   }
